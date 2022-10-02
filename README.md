@@ -1,42 +1,70 @@
-# Advanced Sample Hardhat Project
+# Ethernaut DAO Weekly Challenges
 
-This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
+Recopilation of Ethernaut DAO's weekly challenges.
+## How to use:
 
-The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
+1. Clone this repo.
+2. Complete the challenges on `./test/`.
+3. Verify the result running `yarn test`.
 
-Try running some of the following tasks:
+## Index
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-npx hardhat help
-REPORT_GAS=true npx hardhat test
-npx hardhat coverage
-npx hardhat run scripts/deploy.js
-node scripts/deploy.js
-npx eslint '**/*.js'
-npx eslint '**/*.js' --fix
-npx prettier '**/*.{json,sol,md}' --check
-npx prettier '**/*.{json,sol,md}' --write
-npx solhint 'contracts/**/*.sol'
-npx solhint 'contracts/**/*.sol' --fix
-```
+1. [Private Data](#private-data)
+2. [Wallet](#wallet)
+3. [Car Market](#car-market)
+4. [Vending Machine](#vending-machine)
+5. [Ethernaut DAO Token](#ethernaut-dao-token)
+6. [Hackable](#hackable)
+7. [Switch](#switch)
+8. [Vulnerable NFT](#vulnerable-nft)
 
-# Etherscan verification
+## Private Data
 
-To try out Etherscan verification, you first need to deploy a contract to an Ethereum network that's supported by Etherscan, such as Ropsten.
+Challenge File [here](./test/01-PrivateData.test.ts)
 
-In this project, copy the .env.template file to a file named .env, and then edit it to fill in the details. Enter your Etherscan API key, your Ropsten node URL (eg from Alchemy), and the private key of the account which will send the deployment transaction. With a valid .env file in place, first deploy your contract:
+Run it with `yarn private-data`
 
-```shell
-hardhat run --network ropsten scripts/deploy.js
-```
 
-Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
+## Wallet
 
-```shell
-npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
-```
+Challenge File [here](./test/02-Wallet.test.ts
+)
+
+Run it with ``yarn wallet``
+
+## Car Market
+
+Challenge File [here](./test/03-CarMarket.test.ts)
+
+Run it with `yarn car-market`
+
+## Vending Machine
+
+Challenge File [here](./test/04-VendintMachine.test.ts)
+
+Run it with `yarn vending-machine`
+
+## Ethernaut DAO Token
+
+Challenge File [here](./test/05-EthernautDAOToken.test.ts)
+
+Run it with `yarn ethernaut-dao-token`
+
+## Hackable
+
+Challenge File [here](./test/06-Hackable.test.ts)
+
+Run it with `yarn hackable`
+
+## Switch
+
+Challenge File [here](./test/07-Switch.test.ts)
+
+Run it with `yarn switch`
+
+
+## Vulnerable NFT
+
+Challenge File [here](./test/08-VulnerableNFT.test.ts)
+
+Run it with `yarn vulnerable-nft`
