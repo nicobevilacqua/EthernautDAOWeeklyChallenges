@@ -104,3 +104,7 @@ Run it with `yarn switch`
 Challenge File [here](./test/08-VulnerableNFT.test.ts)
 
 Run it with `yarn vulnerable-nft`
+
+---
+
+[Ethernaut DAO Discord](https://discord.gg/d9QbasZj)
