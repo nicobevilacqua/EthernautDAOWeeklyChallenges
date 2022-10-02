@@ -6,7 +6,15 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "private-data": "npx hardhat test ./test/01-PrivateData.test.ts",
+    "wallet": "npx hardhat test ./test/02-Wallet.test.ts",
+    "car-market": "npx hardhat test ./test/03-CarMarket.test.ts",
+    "vending-machine": "npx hardhat test ./test/04-VendingMachine.test.ts",
+    "ethernaut-dao-token": "npx hardhat test ./test/05-EthernautDAOToken.test.ts",
+    "hackable": "npx hardhat test ./test/06-Hackable.test.ts",
+    "switch": "npx hardhat test ./test/07-Switch.test.ts",
+    "vulnerable-nft": "npx hardhat test ./test/08-VulnerableNFT.test.ts"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.7.0",
