@@ -26,6 +26,6 @@ describe('VendingMachine', () => {
      * YOUR CODE HERE
      */
 
-    expect(await target.owner()).to.equal(attacker.address);
+    expect(await ethers.provider.getBalance(target.address)).to.equal(0);
   });
 });
