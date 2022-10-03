@@ -26,6 +26,8 @@ describe('CarMarket', () => {
 
     await factory.deployed();
 
+    await (await market.setCarFactory(factory.address)).wait();
+
     await (await token.priviledgedMint(market.address, ethers.utils.parseEther('100000'))).wait();
 
     await (await token.priviledgedMint(factory.address, ethers.utils.parseEther('100000'))).wait();
