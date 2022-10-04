@@ -19,6 +19,7 @@ Recopilation of Ethernaut DAO's weekly challenges.
 6. [Hackable](#hackable)
 7. [Switch](#switch)
 8. [Vulnerable NFT](#vulnerable-nft)
+10. [Vault](#vault)
 
 ## Private Data
 

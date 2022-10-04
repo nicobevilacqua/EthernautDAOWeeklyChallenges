@@ -14,7 +14,8 @@
     "ethernaut-dao-token": "npx hardhat test ./test/05-EthernautDAOToken.test.ts",
     "hackable": "npx hardhat test ./test/06-Hackable.test.ts",
     "switch": "npx hardhat test ./test/07-Switch.test.ts",
-    "vulnerable-nft": "npx hardhat test ./test/08-VulnerableNFT.test.ts"
+    "vulnerable-nft": "npx hardhat test ./test/08-VulnerableNFT.test.ts",
+    "vault": "npx hardhat test ./test/10-Vault.test.ts"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.7.0",
